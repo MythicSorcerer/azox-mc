@@ -1,0 +1,21 @@
+{
+	// If the mod should only run on dedicated servers. When enabled it's not sent when in a singleplayer world.
+	"onlyRunOnDedicatedServers": true,
+	// If ore blocks placed by players should be ignored for broadcasts.
+	"ignorePlacedOreBlocks": true,
+	// How many ticks in between ore discoveries before another broadcast is sent. Resets when the same block is mined. 20 ticks = 1 second
+	// min: 0, max: 72000
+	"tickDelayBetweenSameOreBroastcasts": 600,
+	// The format of the broadcasted message. %player% = player name, %ore% = ore name
+	"messageFormat": "%player% has found %ore%!",
+	// Whether the ore name should be displayed in lowercase characters.
+	"lowercaseOreName": true,
+	// If the broadcasted message should contain how big the ore vein is. Will be included in %ore%.
+	"addOreCountToMessage": false,
+	// Whether the ore name should have 'deepslate' hidden if it exists.
+	"hideDeepslateFromName": true,
+	// If enabled, ore discoveries won't be announced when a player is in creative mode.
+	"ignoreCreativePlayers": true,
+	// If enabled, ore discoveries won't be announced when it is broken by a simulated fake player.
+	"ignoreFakePlayers": true
+}
