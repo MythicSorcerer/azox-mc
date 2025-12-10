@@ -1,6 +1,6 @@
 Hi,
 
-This is a full working minecraft server (well almost) just run the start script and it starts working.
+This is a fork of my full working minecraft server.
 
 # Deployment
 Open minecraft server folder.
