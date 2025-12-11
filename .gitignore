@@ -11,9 +11,12 @@ world/
 world_nether/
 world_the_end/
 
+
 # Fabric/Forge cache and libraries
 .fabric/
 libraries/
+
+bluemap/
 
 # Player data (optional - remove if you want to track it)
 # banned-ips.json
@@ -33,3 +36,10 @@ Thumbs.db
 .idea/
 .vscode/
 *.iml
+
+# Minecraft server data
+/server/world/
+/server/config/worldedit/
+/server/recordings/
+/server/bluemap/
+/*.dat
