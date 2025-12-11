@@ -28,7 +28,7 @@
   "record_hotbar": false,
   "record_voice_chat": false,
   "replay_server_ip": null,
-  "allow_downloading_replays": false,
+  "allow_downloading_replays": true,
   "automatically_record": false,
   "player_predicate": {
     "type": "none"

@@ -1,14 +1,10 @@
 {
   "data_version": 2,
-  "count": 2,
+  "count": 1,
   "usercache": [
     {
-      "uuid": "42f64887-6097-4d4d-8b24-fc1142cfc619",
-      "name": "Tom"
-    },
-    {
-      "uuid": "b0df92ce-dce1-4341-9b16-c8a27f115dac",
-      "name": "MythicSorcerer"
+      "uuid": "8252f6bd-f286-31c8-a0f1-d281a6871708",
+      "name": "bito"
     }
   ]
 }

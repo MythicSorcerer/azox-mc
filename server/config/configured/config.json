@@ -1,6 +1,6 @@
 {
   "motd": "_",
-  "fakeHardcore": false,
+  "fakeHardcore": true,
   "disablePlayerConnectionsJoinMessage": "",
   "disableEnd": false,
   "disableEndPortalFrameFilling": false,
