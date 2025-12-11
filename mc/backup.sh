@@ -13,14 +13,14 @@ echo "🗂️  Starting Minecraft server backup..."
 mkdir -p "$BACKUP_DIR"
 
 # Warn via RCON if server is running
-if pgrep -f "fabric-server-mc" > /dev/null; then
-    echo "⚠️  Server is running, sending warning to players..."
-    "$SCRIPT_DIR/connect.sh" "say Server backup starting in 10 seconds..." 2>/dev/null || true
-    sleep 10
-    "$SCRIPT_DIR/connect.sh" "save-off" 2>/dev/null || true
-    "$SCRIPT_DIR/connect.sh" "save-all flush" 2>/dev/null || true
-    sleep 5
-fi
+# if pgrep -f "fabric-server-mc" > /dev/null; then
+#     echo "⚠️  Server is running, sending warning to players..."
+#     "$SCRIPT_DIR/connect.sh" "say Server backup starting in 10 seconds..." 2>/dev/null || true
+#     sleep 10
+#     "$SCRIPT_DIR/connect.sh" "save-off" 2>/dev/null || true
+#     "$SCRIPT_DIR/connect.sh" "save-all flush" 2>/dev/null || true
+#     sleep 5
+# fi
 
 # Create backup (exclude logs and cache)
 echo "📦 Creating backup: $BACKUP_NAME"

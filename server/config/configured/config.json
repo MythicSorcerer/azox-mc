@@ -1,0 +1,17 @@
+{
+  "motd": "_",
+  "fakeHardcore": false,
+  "disablePlayerConnectionsJoinMessage": "",
+  "disableEnd": false,
+  "disableEndPortalFrameFilling": false,
+  "disableEyeOfEnderCasting": false,
+  "disableEndGateways": false,
+  "itemDespawnAge": 6000,
+  "simulationDistance": 0,
+  "viewDistance": 0,
+  "maxPlayers": -1,
+  "maxPlayersFakeListing": -1,
+  "spawnProtection": -1,
+  "playerConnections": "ALLOW_ALL",
+  "playerConnectionBlockList": []
+}

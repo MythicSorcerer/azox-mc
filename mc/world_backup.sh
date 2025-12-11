@@ -39,8 +39,8 @@ if pgrep -f "fabric-server-mc" > /dev/null; then
 fi
 
 # Delete backups older than 14 days
-echo "🧹 Removing world backups older than 14 days..."
-find "$BACKUP_DIR" -name "world-backup-*.tar.gz" -type f -mtime +14 -delete
+# echo "🧹 Removing world backups older than 14 days..."
+# find "$BACKUP_DIR" -name "world-backup-*.tar.gz" -type f -mtime +14 -delete
 
 # Show backup info
 BACKUP_SIZE=$(du -h "$BACKUP_DIR/$BACKUP_NAME" | cut -f1)
