@@ -1,0 +1,47 @@
+motds=[
+    {
+        line1="           <gradient:#00bfff:#8a2be2><b>⚔ Azox Network ⚔</b></gradient>"
+        line2=" <gradient:#00ffe6:#ff7ce6>play.azox.net </gradient><white><obf>|</obf></white><gradient:#00ffe6:#ff7ce6> 1.21.10 </gradient><white><obf>|</obf></white><gradient:#00ffe6:#ff7ce6> Season 3</gradient>"
+        # Set the icon to use with this MOTD
+        #   Either use 'random' to randomly choose an icon, or use the name
+        #   of a file in the icons folder (excluding the '.png' extension)
+        #     ex: icon="myIconFile"
+        icon=random
+    },
+    {
+        line1="             <gradient:#ffbf00:#ff5a00><b>⭐ Azox Network ⭐</b></gradient>"
+        line2=" <gradient:#009dff:#00ffe5>play.azox.net </gradient><gold><obf>|</obf></gold><gradient:#009dff:#00ffe5> 1.21.10 </gradient><gold><obf>|</obf></gold><gradient:#009dff:#00ffe5> Always-On PvP</gradient>"
+        # Set the icon to use with this MOTD
+        #   Either use 'random' to randomly choose an icon, or use the name
+        #   of a file in the icons folder (excluding the '.png' extension)
+        #     ex: icon="myIconFile"
+        icon=random
+    },
+    {
+        line1="           <gradient:#00eaff:#d600ff><b>✦ Azox Network ✦</b></gradient>"
+        line2=" <gradient:#00ff8c:#b3ff00>play.azox.net </gradient><light_purple><obf>|</obf></light_purple><gradient:#00ff8c:#b3ff00> 1.21.10 </gradient><light_purple><obf>|</obf></light_purple><gradient:#00ff8c:#b3ff00> Now Live!</gradient>"
+        # Set the icon to use with this MOTD
+        #   Either use 'random' to randomly choose an icon, or use the name
+        #   of a file in the icons folder (excluding the '.png' extension)
+        #     ex: icon="myIconFile"
+        icon=random
+    },
+    {
+        line1="            <gradient:#ff6ad5:#8a4fff><b>✨ Azox Network ✨</b></gradient>"
+        line2=" <gradient:#ffd700:#ff3c3c>play.azox.net </gradient><red><obf>|</obf></red><gradient:#ffd700:#ff3c3c> 1.21.10 </gradient><red><obf>|</obf></red><gradient:#ffd700:#ff3c3c> Hard Mode</gradient>"
+        # Set the icon to use with this MOTD
+        #   Either use 'random' to randomly choose an icon, or use the name
+        #   of a file in the icons folder (excluding the '.png' extension)
+        #     ex: icon="myIconFile"
+        icon=random
+    },
+    {
+        line1="           <gradient:#ff003c:#ffb300><b>☄ Azox Network ☄</b></gradient>"
+        line2=" <gradient:#00eaff:#8a2be2>play.azox.net </gradient><light_purple><obf>|</obf></light_purple><gradient:#00eaff:#8a2be2> 1.21.10 </gradient><light_purple><obf>|</obf></light_purple><gradient:#00eaff:#8a2be2> Azox SMP</gradient>"
+        # Set the icon to use with this MOTD
+        #   Either use 'random' to randomly choose an icon, or use the name
+        #   of a file in the icons folder (excluding the '.png' extension)
+        #     ex: icon="myIconFile"
+        icon=random
+    }
+] 
